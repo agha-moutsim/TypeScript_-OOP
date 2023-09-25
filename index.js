@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Person_1 = require("./Person");
+const Student_1 = require("./Student");
+const person1 = new Person_1.Person('Alice', 30);
+const person2 = new Person_1.Person('Bob', 25);
+const student1 = new Student_1.Student('John', 22);
+person1.sayHello();
+person2.sayHello();
+console.log(`Student name: ${student1.name}`);
